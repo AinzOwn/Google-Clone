@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+li {
+  list-style-type: none;
+}
+a, a:visited {
+  color: rgba(0,0,0,.54);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+main {
+  max-width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column wrap;
+  height: 86vh;
+}
+button, footer {
+  color: rgba(0,0,0,.54);
+}
+footer {
+  background-color: #f2f2f2;
+  bottom: 0;
+  padding: 1em 2rem;
+}
+footer p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+nav > ul {
+  display: flex;
+  flex-wrap: nowrap;
+}
+nav > ul > li {
+  margin-right: 1rem;
+}
